@@ -1,0 +1,145 @@
+.navbar-nav li{
+    font-size: 17px;
+}
+.nav-item a:hover{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.aside-lin button i{
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    color: white;
+    border-radius: 3px;
+}
+.tic:hover{
+    background-color: rgba(128, 128, 128,0.4);
+    border:2px solid gray;
+    border-radius: 3px;
+    line-height: 5px;
+}
+.aside-icon {
+    width: 80px;
+    height: 80px;
+}
+.aside-icon a i{
+    text-align: center;
+    font-size: 60px;
+    line-height: 80px;
+}
+.translate-word a:hover{
+ color:rgb(70, 62, 48) !important;
+}
+.cobtn:hover{
+background-color: rgba(128, 128, 128,0.9);
+}
+.fix1{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/WhatsApp\ Image\ 2023-11-25\ at\ 15.13.54_1083d594.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.fix-overley1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+/* ///////////////////////////////////////////////////////////// */
+.card-base{
+    position: relative;
+}
+.card-base::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color: gray;
+    opacity: 0;
+    transition: 0.9s;
+    border-radius: 3px;
+}
+.card-base:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+.card-base::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(128, 128, 128);
+    opacity: 0;
+    transition: 0.9s;
+    border-radius: 3px;
+}
+.card-base:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+/* ////////////////////////////////////////////////////////////////*/
+.fix2{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/theater.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.thank-ca{
+    position: relative;
+    transition: 0.5s all;
+}
+.thank-ca:hover{
+    transform: scale(0.8,0.9);
+}
+.thank-ca::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(36, 36, 108);
+    opacity: 0;
+    transition: 0.9s;
+    border-radius: 50px;
+}
+.thank-ca:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+/* /////////////////////////////////////////////////////////////////// */
+.postcard-line{
+    transition:  1s all;
+}
+.postcard .postcard__img {
+    max-width: 500px;
+    max-height: 400px;
+    transition: transform 0.3s ;
+}
+.postcard:hover .postcard__img {
+    transform: scale(1.05,1);
+  }
+.postcard:hover .postcard-line{
+    transform: scale(1.5,1);
+}
+/* ////////////////////////////////////////////////////////////////// */
+h2{
+    background: -webkit-linear-gradient(top,black, gray,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card-soci .card-link:hover{
+color: rgb(91, 134, 164);
+}
